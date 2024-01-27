@@ -1,16 +1,36 @@
-<h1 align="center"><img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/><img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/><img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
+<h1 align="center"><img src="https://github.com/ntkhang03/poker-cards/blob/main/cards/10_of_clubs.png" height="64"/><img src="https://github.com/ntkhang03/poker-cards/blob/main/cards/jack_of_clubs.png" height="64"/><img src="https://github.com/ntkhang03/poker-cards/blob/main/cards/queen_of_diamonds.png" height="64"/><img src="https://github.com/ntkhang03/poker-cards/blob/main/cards/king_of_hearts.png" height="64"/><img src="https://github.com/ntkhang03/poker-cards/blob/main/cards/ace_of_spades.png" height="64"/></h1>
 <h1 align = "center"> Poker hand </h1>
-You are in charge of security at a casino, and there is a thief who is trying to steal the casino's money! Look over the security diagrams to make sure that you always have a guard between the thief and the money! There is one money location, one thief, and any number of guards on each floor of the casino.
+You are playing poker with your friends and need to evaluate your hand. A hand consists of five cards and is ranked, from lowest to highest, in the following way:
+
+// High Card: Highest value card (from 2 to Ace).
+
+// One Pair: Two cards of the same value.
+
+// Two Pairs: Two different pairs.
+
+// Three of a Kind: Three cards of the same value.
+
+// Straight: All cards are consecutive values.
+
+// Flush: All cards of the same suit.
+
+// Full House: Three of a kind and a pair.
+
+// Four of a Kind: Four cards of the same value.
+
+// Straight Flush: All cards are consecutive values of same suit.
+
+// Royal Flush: 10, Jack, Queen, King, Ace, in same suit.
+
 <h1 align = "left"> TasK: </h1>
-Evaluate a given floor of the casino to determine if there is a guard between the money and the thief, if there is not, you will sound an alarm.
+Output the rank of the give poker hand.
 <h1> Input FormaT </h1>
-A string of characters that includes $ (money), T (thief), and G (guard), that represents the layout of the casino floor.
-Space on the casino floor that is not occupied by either money, the thief, or a guard is represented by the character x.
+A string, representing five cards, each indicating the value and suite of the card, separated by spaces. Possible card values are: 2 3 4 5 6 7 8 9 10 J Q K A Suites: H (Hearts), D (Diamonds), C (Clubs), S (Spades) For example, JD indicates Jack of Diamonds.
 <h1> Output FormaT</h1>
-A string that says <b>'ALARM'</b> if the money is in danger or <b>'quiet'</b> if the money is safe.
+A string, indicating the rank of the hand (in the format of the above description).
 <h1> Sample InpuT</h1>
-<b>xxxxxGxx$xxxT</b>
+<b>JS 2H JC AC 2D </b>
 <h1>Sample OutpuT</h1>
-ALARM
+Two Pairs
 <h1>ExplanatioN</h1>
-This input should set off the alarm because there is no guard between the money and the thief!
+The hand includes two Jacks and two 2s, resulting in Two Pairs.

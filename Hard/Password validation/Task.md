@@ -1,4 +1,4 @@
-![ef52d5_3bac6fc77987421996e209f9eff70349~mv2](https://github.com/IgorAkatov/SoloLearn-Tasks/assets/156123230/4c483f20-aee9-4369-9598-9784d510f0f3)
+<img src = "https://github.com/IgorAkatov/files/blob/main/password.gif" height = "128">
 <h1 align = "center"> Password validation </h1>
 You're interviewing to join a security team. They want to see you build a password evaluator for your technical interview to validate the input.
 

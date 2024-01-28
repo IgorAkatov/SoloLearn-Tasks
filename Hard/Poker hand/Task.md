@@ -22,7 +22,7 @@ You are playing poker with your friends and need to evaluate your hand. A hand c
 
 // Royal Flush: 10, Jack, Queen, King, Ace, in same suit.
 
-<h1 align = "left"> TasK: </h1>
+<h1 align = "left"> TasK </h1>
 Output the rank of the give poker hand.
 <h1> Input FormaT </h1>
 A string, representing five cards, each indicating the value and suite of the card, separated by spaces. Possible card values are: 2 3 4 5 6 7 8 9 10 J Q K A Suites: H (Hearts), D (Diamonds), C (Clubs), S (Spades) For example, JD indicates Jack of Diamonds.

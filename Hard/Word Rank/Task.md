@@ -2,7 +2,7 @@
 <h1 align="center">Word RanK</a> 
 <h3 align="left">A word is a sequence of letters A-Z. Rearranging the letters in the word, you can come up with new words, composed of the same letters. For example, the letters in the word TESTING can be rearranged to result in SETTING. If we sort all the words made up of the same set of letters alphabetically, we can calculate the rank of each word.</h3>
 
-  <h1 align="left">Task:</a>
+  <h1 align="left">Task</a>
   <h3 align="left">Given a word (not limited to just "dictionary words"), calculate and output its rank among all the words that can be made from the letters of that word. The word can contain duplicate letters. </h3>
 
   <h1 align="left">Input FormaT:</a>

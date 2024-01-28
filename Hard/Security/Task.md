@@ -1,7 +1,7 @@
 <h1 align="center"><img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/><img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/><img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 <h1 align = "center"> Security </h1>
 You are in charge of security at a casino, and there is a thief who is trying to steal the casino's money! Look over the security diagrams to make sure that you always have a guard between the thief and the money! There is one money location, one thief, and any number of guards on each floor of the casino.
-<h1 align = "left"> TasK: </h1>
+<h1 align = "left"> TasK </h1>
 Evaluate a given floor of the casino to determine if there is a guard between the money and the thief, if there is not, you will sound an alarm.
 <h1> Input FormaT </h1>
 A string of characters that includes $ (money), T (thief), and G (guard), that represents the layout of the casino floor.
